@@ -1,8 +1,5 @@
 const greet = (name: string): string => {
-    return `Hello, ${name}!`;
+    return `Hello there, ${name}!`;
 };
 
-// Unfinished feature:
-const farewell = (name: string): string => {
-    return `Goodbye, ${name}!`;
-};
+console.log(greet("World"));

@@ -1,6 +1,8 @@
-// hello-world.ts
 const greet = (name: string): string => {
     return `Hello, ${name}!`;
 };
 
-console.log(greet("World"));
+// Unfinished feature:
+const farewell = (name: string): string => {
+    return `Goodbye, ${name}!`;
+};
